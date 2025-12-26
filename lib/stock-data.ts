@@ -1,0 +1,42 @@
+export const stockData = {
+    "1D": [
+        { time: "9:30", value: 185.42 },
+        { time: "10:00", value: 186.21 },
+        { time: "10:30", value: 185.89 },
+        { time: "11:00", value: 186.55 },
+        { time: "11:30", value: 187.01 },
+        { time: "12:00", value: 186.78 },
+        { time: "12:30", value: 187.13 },
+        { time: "13:00", value: 187.45 },
+        { time: "13:30", value: 187.98 },
+        { time: "14:00", value: 188.32 },
+        { time: "14:30", value: 188.12 },
+        { time: "15:00", value: 188.67 },
+        { time: "15:30", value: 189.01 },
+        { time: "16:00", value: 189.45 },
+    ],
+    "1W": [
+        { time: "Mon", value: 184.12 },
+        { time: "Tue", value: 185.45 },
+        { time: "Wed", value: 186.78 },
+        { time: "Thu", value: 187.32 },
+        { time: "Fri", value: 189.45 },
+    ],
+    "1M": [
+        { time: "Week 1", value: 175.32 },
+        { time: "Week 2", value: 179.45 },
+        { time: "Week 3", value: 183.67 },
+        { time: "Week 4", value: 189.45 },
+    ],
+    "3M": [
+        { time: "Jan", value: 165.78 },
+        { time: "Feb", value: 172.34 },
+        { time: "Mar", value: 189.45 },
+    ],
+    "1Y": [
+        { time: "Q1", value: 145.67 },
+        { time: "Q2", value: 156.89 },
+        { time: "Q3", value: 172.34 },
+        { time: "Q4", value: 189.45 },
+    ],
+}
